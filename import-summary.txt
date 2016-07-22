@@ -1,0 +1,92 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* .idea\
+* .idea\.name
+* .idea\compiler.xml
+* .idea\copyright\
+* .idea\copyright\profiles_settings.xml
+* .idea\encodings.xml
+* .idea\misc.xml
+* .idea\workspace.xml
+* ant.properties
+* app\
+* app\build.gradle
+* app\libs\
+* app\libs\android-support-v13.jar
+* app\src\
+* app\src\main\
+* app\src\main\AndroidManifest.xml
+* app\src\main\java\
+* app\src\main\java\com\
+* app\src\main\java\com\example\
+* app\src\main\java\com\example\android\
+* app\src\main\java\com\example\android\lifecycle\
+* app\src\main\java\com\example\android\lifecycle\ActivityA.java
+* app\src\main\java\com\example\android\lifecycle\ActivityB.java
+* app\src\main\java\com\example\android\lifecycle\ActivityC.java
+* app\src\main\java\com\example\android\lifecycle\DialogActivity.java
+* app\src\main\java\com\example\android\lifecycle\util\
+* app\src\main\java\com\example\android\lifecycle\util\StatusTracker.java
+* app\src\main\java\com\example\android\lifecycle\util\Utils.java
+* app\src\main\res\
+* app\src\main\res\drawable-hdpi\
+* app\src\main\res\drawable-hdpi\ic_launcher.png
+* app\src\main\res\drawable-ldpi\
+* app\src\main\res\drawable-ldpi\ic_launcher.png
+* app\src\main\res\drawable-mdpi\
+* app\src\main\res\drawable-mdpi\ic_launcher.png
+* app\src\main\res\drawable-xhdpi\
+* app\src\main\res\drawable-xhdpi\ic_launcher.png
+* app\src\main\res\layout\
+* app\src\main\res\layout\activity_a.xml
+* app\src\main\res\layout\activity_b.xml
+* app\src\main\res\layout\activity_c.xml
+* app\src\main\res\layout\activity_dialog.xml
+* app\src\main\res\values\
+* app\src\main\res\values\colors.xml
+* app\src\main\res\values\dimensions.xml
+* app\src\main\res\values\strings.xml
+* build.gradle
+* build.properties
+* build.xml
+* default.properties
+* gradle\
+* gradle\wrapper\
+* gradle\wrapper\gradle-wrapper.jar
+* gradle\wrapper\gradle-wrapper.properties
+* gradlew
+* gradlew.bat
+* proguard.cfg
+* settings.gradle
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => app\src\main\AndroidManifest.xml
+* libs\android-support-v13.jar => app\libs\android-support-v13.jar
+* res\ => app\src\main\res\
+* src\ => app\src\main\java\
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)
